@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <title>Site Informativo</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="Titulo Principal">Guia do CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#cascata">Regra da cascata</a></li>
+                <li><a href="#Especificidade">Especificidade</a></li>
+                <li><a href="#Combinadores">Combinadores</a></li>
+                <li><a href="#pseudo-classe">pseudo-classe</a></li>
+                <li><a href="#Inline-block">inline-block</a></li>
+                <li><a href="#Margins,padding e Border">Margin, Padding e Border</a></li>
+                <li><a href="#display">display</a></li>
+                </u </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <p>Neste site, abordaremos um tema muito legal e importante, que são alguns elementos bastante utilizado
+                dentro do desenvolvimento de Web e como isso pode te ajudar a melhorar o seu desenvolvimento:</p>
+        </section>
+
+        <section>
+            <h2 id="cascata">Regra da Cascata</h2>
+            <div>
+                <p>
+                    As <strong><mark>regras da cascata</mark></strong> funciona como se fosse uma hierarquia dentro do
+                    CSS, fazendo com que a ultima
+                    declaração seje sempre a executada.
+                </p>
+                <p>A cascata ajuda a resolve conflitos dentro do no CSS considerando:</p>
+                <ol>
+                    <li>Origem do estilo</li>
+                    <li>Especificidade</li>
+                    <li>Ordem de Declaração</li>
+                    <li>Herança</li>
+                </ol>
+                <a href="#Titulo Principal">volte ao inicio</a>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2 id="Especificidade">Especificidade</h2>
+            <div>
+                <p>
+                    A <strong><mark>Regra de Especificidade</mark></strong> dentro do CSS uma regra que o navegador
+                    utiliza para que possa decidir
+                    qual o estilo aplicar quando múltiplas regras diferentes tentam afetar o mesmo elemento.
+                </p>
+
+                <ul>
+                    <li><strong>Tipo de Seletor:</strong></li>
+                </ul>
+                <ol type="I">
+                    <li>Seletor de elemento</li>
+                    <li>Seletor de classe, atributo, pseudo-classe</li>
+                    <li>Seletor de ID</li>
+                    <li>Estilo inline (no HTML)</li>
+                </ol>
+                <ol type="I">
+                    <li>0,0,1</li>
+                    <li>0,1,0</li>
+                    <li>1,0,0</li>
+                    <li>1,0,0,0</li>
+                </ol>
+                <a href="#Titulo Principal">volte ao inicio</a>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2 id="Combinadores">Combinadores</h2>
+            <div>
+                <p>
+                    <strong><mark>Combinadores</mark></strong> são símbolos que são utilizados no CSS para definir a
+                    relação entre dois seletores
+                    HTML. Este elemento nos permite selecionar elementos com base em sua posição ou hierarquia dentro do
+                    código HTML.
+
+                </p>
+                <ul>
+                    <li>Evita repetir classes oi IDs</li>
+                    <li>Aumenta a clareza e organização do CSS</li>
+                    <li>Permite aplicar estilos específicos sem mexer no HTML</li>
+                    <li>Deixa o CSS mais limpo e poderoso</li>
+                </ul>
+                <a href="#Titulo Principal">volte ao inicio</a>
+            </div>
+        </section>
+        <hr>
+
+        <section>
+            <h2 id="pseudo-classe">pseudo-classe</h2>
+            <div>
+                <p>
+                    Uma <strong><mark>pseudo-classe</mark></strong> é basicamente, uma palavras que é adicionada no fim
+                    de um seletor CSS, antecipada
+                    pos dois pontos (:). Isso nos permite aplicar estilos a elementos HTMLque estão em um estada
+                    específico, sem peecisar adicionar clases nem alterar HTML.
+                </p>
+
+                <h2>Lista de pseudo-classes úteis:</h2>
+                <h3>First-Child:</h3>
+                <p>é usada para selecionar o primeiro filho de um elemento pai. Isso significa que o estilo será
+                    aplicado somente ao primeiro elemento dentro de um contêiner, se ele for do tipo que você
+                    especificou. </p>
+
+                <h3>last-child</h3>
+                <p>serve para selecionar o último filho de um elemento pai. Ou seja, o estilo será aplicado somente ao
+                    último elemento dentro de um contêiner, desde que ele seja do tipo correto que você estiver
+                    selecionando.</p>
+
+                <h3>nth-child</h3>
+                <p>serve para selecionar um ou mais filhos com base na sua posição (ordem) dentro de um elemento pai.
+                </p>
+
+                <h3>nth-of-type</h3>
+                <p>é usada para selecionar o enésimo elemento de um determinado tipo de tag dentro de um elemento pai.
+                </p>
+                <a href="#Titulo Principal">volte ao inicio</a>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2 id="Inline-block">inline-clock</h2>
+            <div>
+                <p><strong><mark>Inline-block</mark></strong>é um valor da propriedade CSS display que combina
+                    características de elementos inline e block.</p>
+
+                <h2>Onde utilizar?</h2>
+                <ul>
+                    <li>Para criar menus horizontais</li>
+                    <li>Para alinhar caixas ou cards lado a lado</li>
+                    <li>Para estilizar botões ou links com tamanho ajustável</li>
+                    <li>Quando precisa do comportamento visual de inline, mas controle como block</li>
+                </ul>
+            </div>
+            <a href="#Titulo Principal">volte ao inicio</a>
+        </section>
+        <hr>
+
+        <section>
+            <h2 id="Margins,padding e Border">Margin, Padding e Border</h2>
+            <div>
+                <ul>
+                    <li><strong><mark>Padding</mark></strong>: Espaço interno. Espaço entre a borda e o conteúdo.</li>
+                    <li><strong><mark>Border</mark></strong>: Elemento que contorna todo o conteúdo.</li>
+                    <li><strong><mark>Margin</mark></strong>: Espaço fora do elemento ou espaço <strong>entre</strong> o
+                        elemento.</li>
+                </ul>
+                <a href="#Titulo Principal">volte ao inicio</a>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2 id="display">display</h2>
+            <div>
+                <ol>
+                    <li>Elementos que tem <strong><mark>Display Block</mark></strong> por padrão:</li>
+                </ol>
+                <ol>
+                    <li>h1</li>
+                    <li>p</li>
+                    <li>div</li>
+                    <li>section</li>
+                    <li>main</li>
+                    <li>header</li>
+                    <li>nav</li>
+                </ol>
+
+                <ul>
+                    <li>Propriedades que usamos para mexer nestes elementos:</li>
+                    <li>Width</li>
+                    <li>hright</li>
+                    <li>padding</li>
+                    <li>margin</li>
+                    <li>border</li>
+                </ul>
+                <p>Elementos com display block ocupam a tela enteira</p>
+
+
+                <ol>
+                    <li>Elementos com <strong><mark>Display inline</mark></strong>:</li>
+                </ol>
+
+                <ol>
+                    <li>a</li>
+                    <li>strong</li>
+                    <li>span</li>
+                </ol>
+
+                <ul>
+                    <li>Propriedades que usamos para mexer nestes elementos:</li>
+                    <li>padding</li>
+                    <li>margin</li>
+                    <li>border</li>
+                </ul>
+                <p>Elementos que ocupam <strong>não</strong> ocupam a tela enteira.</p>
+
+                <ol>
+                    <li><strong>Elementos que ocupam o inline-block:</strong></li>
+                </ol>
+                <ol>
+                    <li>img</li>
+                </ol>
+
+                <ul>
+                    <li>Propriedades que usamos para mexer nestes elementos:</li>
+                    <li>Podemos utilizar tanto o Display block, quanto o display inline.</li>
+                </ul>
+            </div>
+            <a href="#Titulo Principal">volte ao inicio</a>
+        </section>
+    </main>
+</body>
+
+</html>
